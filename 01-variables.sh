@@ -1,11 +1,10 @@
 
 #!/bin/bash
-echo "Hello World!"
-echo "This is Jnanesh!!!!!!!!!!"
+
 
 #variables
-PERSON1="Raja"
-PERSON2="Sachin"
+PERSON1=$1
+PERSON2=$2
 
 echo "Hello $PERSON1 and $PERSON2!"
 echo "Welcome to the world of shell scripting $PERSON1 AND $PERSON2"
