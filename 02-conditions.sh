@@ -8,4 +8,12 @@ then
   exit 1
 fi
 
-dnf install mysql -y
+dnf list installed mysql
+
+if [ $? -ne 0] 
+then 
+  echo "mysql is not installed"
+  exit 1
+else
+  echo "mysql is installed"
+fi
