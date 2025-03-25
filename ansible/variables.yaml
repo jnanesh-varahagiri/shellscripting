@@ -5,7 +5,7 @@
     COURSE: "Devops with AWS"
     DURATION: 120HRS
     TRAINER: SIVAKUMAR
-  taks: 
+  tasks: 
     - name: Print varable
       ansible.builtin.debug:
         msg: "Course is {{COURSE}} ,Durartion is {{DURATION}} , trainer is {{TRAINER}}"
