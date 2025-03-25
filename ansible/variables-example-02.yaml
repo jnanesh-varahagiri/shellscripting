@@ -6,4 +6,4 @@
   tasks:
     - name: Include variables from file
       ansible.builtin.debug:
-      msg: "Course is {{COURSE}} ,Durartion is {{DURATION}} , trainer is {{TRAINER}}"
+        msg: "Course is {{COURSE}} ,Durartion is {{DURATION}} , trainer is {{TRAINER}}"
