@@ -1,6 +1,5 @@
 - name : Variables from inventory
-  hosts: local
-  connection: local
+  hosts: test
   tasks:
     - name : variables from inventory
       ansible.builtin.debug:
