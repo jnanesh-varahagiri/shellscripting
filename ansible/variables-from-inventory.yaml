@@ -1,5 +1,5 @@
 - name : Variables from inventory
-  hosts: test1
+  hosts: test
   tasks:
     - name : variables from inventory
       ansible.builtin.debug:
