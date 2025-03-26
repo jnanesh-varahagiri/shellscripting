@@ -1,7 +1,5 @@
 - name : Variables from inventory
   hosts: testVar
-  vars:
-    COURSE: "DEVOPS"
   tasks:
     - name : variables from inventory
       ansible.builtin.debug:
