@@ -1,6 +1,0 @@
-- name : Variables from inventory
-  hosts: testVar
-  tasks:
-    - name : variables from inventory
-      ansible.builtin.debug:
-        msg: "Course is {{COURSE}}"
